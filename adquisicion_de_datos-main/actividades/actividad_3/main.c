@@ -44,7 +44,7 @@ int main() {
         // Verificar el resultado de la operacion
         if (result == DHT_RESULT_OK) {
             // Mostrar temperatura y humedad
-            printf("La humedad es de %.2f y la temperatura es de %.2f C o %.2f /n" ,humidity, temperature_c, celsius_to_fahrenheit(temperature_c))
+    printf("La humedad es de %.2f y la temperatura es de %.2f C o %.2f \n" ,humidity, temperature_c, celsius_to_fahrenheit(temperature_c));
 
         } else if (result == DHT_RESULT_TIMEOUT) {
             // Mensaje de error
